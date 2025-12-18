@@ -2,25 +2,56 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Imposter-Game</title>
 </head>
 <body>
     <div class="game-container">
         <h1 id="title">Imposter Game</h1>
 
-        <div  class ="pick-player">
-           <!-- <button id="pickPlayer">Pick the amount of players</button> -->
-            <h4>Pick amount of players</h4>
+        <div id="main-screen">
+            <div class="pick-player">
+                <h4>Pick amount of players</h4>
+            </div>
+
+            <div class="pick-categorie">
+                <h4>Pick the category</h4>
+            </div>
+
+            <div class="game-explanation">
+                <!-- You can put explanation text here -->
+            </div> 
+        </div>
+        
+        <div id="category-screen">
+            <h2>Choose the category</h2>
+            <p>Select the category for the round</p>
+            <div class="category-options">
+                <button class="category-box">Food</button>
+                <button class="category-box">location</button>
+                <button class="category-box">Objects</button>
+                
+                <div>
+                    <button id="back-to-main2">Back</button>
+                </div>
+            </div>
+
+        </div>
+        <div id="player-screen">
+            <h2>Choose number of players</h2>
+            <p>Select how many players will be in the game:</p>
+
+            <div class="player-options">
+                <div class="player-box">Player 1</div>
+                <div class="player-box">Player 2</div>
+                <div class="player-box">Player 3</div>
+            </div>
+            <div class="Back-Add">
+                <button id="back-to-main">Back</button>
+                <button id="add-player">Add Player</button>
+            </div>
         </div>
 
-        <div class  ="pick-categorie">
-            <!--<button id="pickCategorie">pick the categorie</button>-->
-            <h4>Pick the category</h4>
-        </div>
-
-        <div class  ="game-explanation">
-
-        </div> 
     </div>
 </body>
 </html>
