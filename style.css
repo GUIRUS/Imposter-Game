@@ -5,6 +5,11 @@ body {
     height: 100vh;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    
+}
+
+#title {
+    color: white;
 }
 
 .game-container {
@@ -13,27 +18,39 @@ body {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 400px;
-    
+    height: 800px;
     text-align: center;
+    background-color: #0a2e59;
 }
 
 
 .pick-player {
-    background-color: white;
+    background-color: #0fb8d6;
     border-radius: 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 400px;
+    width: 360px;
+    margin-top: 200px;
+    cursor: pointer;
     
     text-align: center;
 }
 
 .pick-categorie {
-    background-color: white;
+    background-color:#0fb8d6;
     border-radius: 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 400px;
-    
+    width: 360px;
+    cursor: pointer;
     text-align: center;
+    margin-top: 50px;
+}
+
+.pick-player:hover{
+    background-color: #10caeb;
+}
+
+.pick-categorie:hover {
+    background-color: #10caeb;
 }
