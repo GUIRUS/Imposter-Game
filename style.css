@@ -54,3 +54,62 @@ body {
 .pick-categorie:hover {
     background-color: #10caeb;
 }
+
+#player-screen {
+    display: none; /* start hidden */
+    color: white;  /* so it shows well on dark background */
+    margin-top: 150px;
+}
+
+.player-options {
+    margin-top: 20px;
+}
+
+.player-box {
+    background-color: #0fb8d6;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px auto;
+    width: 80%;
+    color: white;
+    font-weight: bold;
+}
+
+
+.Back-Add button {
+    margin-top: 20px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#category-screen {
+    display: none; /* start hidden */
+    color: white;  /* so it shows well on dark background */
+    margin-top: 150px;
+}
+
+.category-options {
+    margin-top: 20px;
+}
+
+.category-box {
+    background-color: #0fb8d6;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px auto;
+    width: 80%;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#back-to-main2 {
+    margin-top: 20px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
